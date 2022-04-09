@@ -24,9 +24,28 @@ body {
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
+    -webkit-border-top: 16px solid red;
+  }
+  
+  20% {
+    -webkit-transform: rotate(72deg);
+    -webkit-border-top: 16px solid rgb(0, 255, 76);
+  }
+  40% {
+    -webkit-transform: rotate(144deg);
+    -webkit-border-top: 16px solid rgb(221, 98, 15);
+  }
+  60% {
+    -webkit-transform: rotate(216deg);
+    -webkit-border-top: 16px solid rgb(207, 221, 15);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+    -webkit-border-top: 16px solid rgb(29, 15, 221);
   }
   100% {
     -webkit-transform: rotate(360deg);
+    -webkit-border-top: 16px solid rgb(255, 0, 212);
   }
 }
 
